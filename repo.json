@@ -1,0 +1,8 @@
+{
+  "name": "CSX Cloudstream Extensions",
+  "description": "Cloudstream extensions from Arpit-18112003",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/Arpit-18112003/clousream/builds/plugins.json"
+  ]
+}

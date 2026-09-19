@@ -1,8 +1,14 @@
 <div align="center">
 
-[![Status: Hiatus](https://img.shields.io/badge/Status-On_Hiatus-orange?style=for-the-badge&logo=clock)](https://github.com)
+# CSX Cloudstream Extensions
 
-**This repository is currently on hiatus. Maintenance, bug fixes, and new extension updates are paused until further notice.**
+## Install in Cloudstream
+
+In Cloudstream, open **Settings -> Extensions -> Add repository** and paste:
+
+`https://raw.githubusercontent.com/Arpit-18112003/clousream/builds/repo.json`
+
+The repository manifest loads the published plugin list from the `builds` branch. The first GitHub Actions build must complete before this link becomes available.
 
 ---
 

@@ -35,7 +35,8 @@ subprojects {
     apply(plugin = "com.lagradost.cloudstream3.gradle")
 
     cloudstream {
-        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/SaurabhKaperwan/CSX")
+        // The Cloudstream Gradle plugin expects an owner/repository slug, not a URL.
+        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "Arpit-18112003/clousream")
         authors = listOf("megix")
     }
 
