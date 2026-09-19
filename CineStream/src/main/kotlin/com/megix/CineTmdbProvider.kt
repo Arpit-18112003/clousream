@@ -28,7 +28,7 @@ class CineTmdbProvider: MainAPI() {
     private val image_proxy = "https://wsrv.nl/?url="
 
     companion object {
-        private const val apiKey = BuildConfig.TMDB_KEY
+        private val apiKey = BuildConfig.TMDB_KEY
     }
 
     override val mainPage = mainPageOf(

@@ -7,10 +7,10 @@ import org.json.JSONObject
 // ── 1. Static APIs ──────────────────────────────────────────
 const val tokyoInsiderAPI = "https://www.tokyoinsider.com"
 const val WYZIESubsAPI = "https://sub.wyzie.io"
-const val CASTLE_KEY = BuildConfig.CASTLE_KEY
-const val MOVIEBLAST_TOKEN = BuildConfig.MOVIEBLAST_TOKEN
-const val MOVIEBLAST_API = BuildConfig.MOVIEBLAST_API
-const val MOVIEBLAST_KEY = BuildConfig.MOVIEBLAST_KEY
+val CASTLE_KEY = BuildConfig.CASTLE_KEY
+val MOVIEBLAST_TOKEN = BuildConfig.MOVIEBLAST_TOKEN
+val MOVIEBLAST_API = BuildConfig.MOVIEBLAST_API
+val MOVIEBLAST_KEY = BuildConfig.MOVIEBLAST_KEY
 const val allmovielandAPI = "https://allmovieland.one"
 const val anizoneAPI = "https://anizone.to"
 const val PrimeSrcApi = "https://primesrc.me"
